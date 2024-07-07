@@ -142,10 +142,137 @@ main {
   padding: 20px;
   line-height: 25px;
   border-radius: 5px;
-  box-shadow: 0px 6px 30px 0px;
+  box-shadow: 0px 6px 25px 0px;
 }
 .name {
   font-size: 25px;
   font-weight: bold;
   margin: 15px 0;
+}
+
+/* Rejume section  */
+
+.Section-there {
+  margin-top: 150px;
+  padding: 10px 0;
+  background-color: #fffafb;
+}
+.Section-there h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.rejume-containar {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.rejume-education h4 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px 0;
+  padding-right: 50px;
+  /* line-height: normal; */
+}
+.education h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.education h5 {
+  font-size: 18px;
+  color: grey;
+  font-weight: 900;
+}
+.rejume-education p {
+  font-size: 13px;
+  font-weight: 700;
+  color: gray;
+}
+.CV-dow {
+  text-align: center;
+  margin-top: 25px;
+}
+.CV-dow button {
+  color: white;
+  padding: 10px 30px;
+  background-color: tomato;
+  border: none;
+  border-radius: 7px;
+}
+
+/* footer-section  */
+footer {
+  display: flex;
+  padding: 50px 300px;
+  gap: 50px;
+  margin-top: 80px;
+  background-color: #f5ecec;
+}
+.foot-one {
+  padding: 15px;
+  /* border: 2px solid black; */
+}
+.foot-one h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.foot-one p {
+  color: grey;
+}
+.foot-one .foot-one-pro {
+  margin-top: 30px;
+  font-size: 30px;
+}
+.foot-one-pro a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+.foot-two {
+  /* border: 2px solid black; */
+}
+
+footer input[type='text'],
+footer input[type='email'] {
+  height: 44px;
+  font-size: 15px;
+  display: block;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 30px 0;
+  border: none;
+}
+textarea {
+  font-size: 15px;
+  display: block;
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 30px 0;
+  border: none;
+}
+.subm{
+  display: flex;
+  ju
+}
+.btnfo {
+  font-size: 20px;
+  background-color: tomato;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
 }
