@@ -276,3 +276,11 @@ textarea {
   margin-right: 20px;
   cursor: pointer;
 }
+.foo-last {
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
